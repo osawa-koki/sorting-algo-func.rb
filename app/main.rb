@@ -4,6 +4,7 @@ require_relative 'shuffle'
 require_relative 'bubble_sort'
 require_relative 'selection_sort'
 require_relative 'insertion_sort'
+require_relative 'merge_sort'
 
 nums = Array.new(10) { |i| i }
 
@@ -26,3 +27,9 @@ display('shuffled', nums)
 
 insertion_sort(nums)
 display('insertion sort', nums)
+
+shuffle(nums)
+display('shuffled', nums)
+
+merge_sort(nums)
+display('merge sort', nums)
