@@ -17,6 +17,7 @@ require_relative 'gnome_sort'
 require_relative 'stooge_sort'
 require_relative 'pigeonhole_sort'
 require_relative 'odd_even_sort'
+require_relative 'cocktail_sort'
 
 nums = Array.new(10) { |i| i }
 
@@ -117,3 +118,9 @@ display('shuffled', nums)
 
 odd_even_sort(nums)
 display('odd even sort', nums)
+
+shuffle(nums)
+display('shuffled', nums)
+
+cocktail_sort(nums)
+display('cocktail sort', nums)
