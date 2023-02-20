@@ -1,5 +1,5 @@
 
-def Display(title, array)
+def display(title, array)
   # タイトルを右詰めで20桁にする
   title = title.ljust(20)
 

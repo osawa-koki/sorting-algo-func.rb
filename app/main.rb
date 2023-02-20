@@ -4,7 +4,7 @@ require_relative 'shuffle'
 
 nums = Array.new(10) { |i| i }
 
-Display('original', nums)
+display('original', nums)
 
-Shuffle(nums)
-Display('shuffled', nums)
+shuffle(nums)
+display('shuffled', nums)

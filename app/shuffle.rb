@@ -1,5 +1,5 @@
 
-def Shuffle(array)
+def shuffle(array)
   # 配列をシャッフルする
   array.shuffle!
 
