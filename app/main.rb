@@ -13,6 +13,7 @@ require_relative 'bucket_sort'
 require_relative 'comb_sort'
 require_relative 'cycle_sort'
 require_relative 'pancake_sort'
+require_relative 'gnome_sort'
 
 nums = Array.new(10) { |i| i }
 
@@ -89,3 +90,9 @@ display('shuffled', nums)
 
 pancake_sort(nums)
 display('pancake sort', nums)
+
+shuffle(nums)
+display('shuffled', nums)
+
+gnome_sort(nums)
+display('gnome sort', nums)
