@@ -7,6 +7,7 @@ require_relative 'insertion_sort'
 require_relative 'merge_sort'
 require_relative 'quick_sort'
 require_relative 'shell_sort'
+require_relative 'heap_sort'
 
 nums = Array.new(10) { |i| i }
 
@@ -47,3 +48,9 @@ display('shuffled', nums)
 
 shell_sort(nums)
 display('shell sort', nums)
+
+shuffle(nums)
+display('shuffled', nums)
+
+heap_sort(nums)
+display('heap sort', nums)
