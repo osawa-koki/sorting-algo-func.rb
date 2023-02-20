@@ -16,6 +16,7 @@ require_relative 'pancake_sort'
 require_relative 'gnome_sort'
 require_relative 'stooge_sort'
 require_relative 'pigeonhole_sort'
+require_relative 'odd_even_sort'
 
 nums = Array.new(10) { |i| i }
 
@@ -110,3 +111,9 @@ display('shuffled', nums)
 
 pigeonhole_sort(nums)
 display('pigeonhole sort', nums)
+
+shuffle(nums)
+display('shuffled', nums)
+
+odd_even_sort(nums)
+display('odd even sort', nums)
