@@ -10,6 +10,7 @@ require_relative 'shell_sort'
 require_relative 'heap_sort'
 require_relative 'counting_sort'
 require_relative 'bucket_sort'
+require_relative 'comb_sort'
 
 nums = Array.new(10) { |i| i }
 
@@ -68,3 +69,9 @@ display('shuffled', nums)
 
 bucket_sort(nums)
 display('bucket sort', nums)
+
+shuffle(nums)
+display('shuffled', nums)
+
+comb_sort(nums)
+display('comb sort', nums)
