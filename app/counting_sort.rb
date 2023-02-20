@@ -1,6 +1,5 @@
 
 def counting_sort(nums)
-  # カウントソート
   max = nums.max
   min = nums.min
 
