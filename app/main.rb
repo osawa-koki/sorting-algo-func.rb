@@ -14,6 +14,7 @@ require_relative 'comb_sort'
 require_relative 'cycle_sort'
 require_relative 'pancake_sort'
 require_relative 'gnome_sort'
+require_relative 'stooge_sort'
 
 nums = Array.new(10) { |i| i }
 
@@ -96,3 +97,9 @@ display('shuffled', nums)
 
 gnome_sort(nums)
 display('gnome sort', nums)
+
+shuffle(nums)
+display('shuffled', nums)
+
+stooge_sort(nums)
+display('stooge sort', nums)
