@@ -21,3 +21,22 @@
 - [x] 鳩ノ巣ソート
 - [x] 奇偶転置ソート
 - [x] カクテルソート
+
+## 実行方法
+
+Rubyの環境がローカルにあれば、以下のコマンドで実行できます。
+
+```shell
+ruby ./app/main.rb
+```
+
+DevContainerに入ることで、上記のコマンドを実行することもできます。
+
+---
+
+ローカルにRubyの環境がない場合は、Dockerを使って実行することもできます。  
+
+```shell
+docker build -t sorting-algo-func-rb .
+docker run -it --rm --name my-sorting-algo-func-rb sorting-algo-func-rb
+```
